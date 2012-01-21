@@ -1,19 +1,4 @@
 #############
-# Uppgift 7 #
-#############
-
-class Integer
-  def fib
-    return self if (0..1).include?(self)
-    fibonacci = [0, 1]
-    (2..self).each do
-      fibonacci << fibonacci[-1]+fibonacci[-2]
-    end
-    return fibonacci[-1]
-  end
-end
-
-#############
 # Uppgift 8 #
 #############
 
@@ -31,7 +16,14 @@ end
 #############
 
 class Array
-  def rotate_left
-    
+  def rotate_left(n = 1)
+    empty_array = Array.new
+    reversed_array = self.rotate(n)
+
+    (reversed_array).each do |i|
+      empty_array.push(i)
+    end
+
+    return empty_array
   end
 end

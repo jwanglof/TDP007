@@ -23,17 +23,21 @@ end
 #############
 
 def longest_string(given_array)
-  length = 0
-  longest = ""
-
-  given_array.each {
-    | e |
-    if e.length > length
-      length = e.length
-      longest = e
-    end
-  }
-  return longest
+  if given_array.class == Array
+    length = 0
+    longest = ""
+    
+    given_array.each {
+      | e |
+      if e.length > length
+        length = e.length
+        longest = e
+      end
+    }
+    return longest
+  else
+    return false
+  end
 end
 
 #############

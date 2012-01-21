@@ -3,10 +3,12 @@
 ##############
 
 def get_username(str)
-  if str =~ /USERNAME: (\w+)/
-    return "VICTORY!"
+  pattern = /(username: (\w+))/i
+  if str =~ pattern
+    match = pattern.match(str)
+    return match[0]
   else
-    return "FAILURE!"
+    return false
   end
 end
 
@@ -14,17 +16,17 @@ end
 # Uppgift 11 #
 ##############
 
-require 'open-uri.rb'
-
-def tag_names(var)
-  l = []
+#require 'open-uri.rb'
+#
+#def tag_names(var)
+#  l = []
 #  if var =~ /<\w+>.<\/\w+>/
-  if var =~ /<\w+>/
-    puts var
-  else
-    puts 2
-  end
-end
+#  if var =~ /<\w+>/
+#    puts var
+#  else
+#    puts 2
+#  end
+#end
 
 ##############
 # Uppgift 12 #
