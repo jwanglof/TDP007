@@ -1,0 +1,26 @@
+Reflektioner kring hur det är att lära sig ett nytt språk (Ruby):
+Hur har ni gått tillväga för att lära er Ruby?
+Vilka fel och misstag har ni gjort under tiden?
+Vad finns det för nya konstruktioner i Ruby som ni inte sett förut?
+Vad finns det för konstruktioner som ni känner igen men som ser lite annorlunda ut?
+Finns det något som ni irriterar er på eller tycker om i Ruby?
+
+Reflektioner kring de olika tekniker som ni stöter på:
+Hur användbart verkar detta vara?
+Hur lätt/svårt är det att sätta sig in i?
+Har ni hittat alternativa källor för att ta reda på nya saker?
+
+Dokumentation av hur ni har tänkt när ni arbetat fram era lösningar:
+Vad arbetade ni med (i grova drag) vid varje labbpass?
+Hur har ni tolkat uppgiften?
+Vad var svårt eller lätt med uppgiften?
+
+===============
+
+26/01
+Har börjat med första deluppgiften i uppgift 1, alltså där man ska ta ut de olika fotbollslagen och använda dess uppgifter.
+Vet inte riktigt om jag har förstått uppgiften rätt eftersom jag knappt använder reguljära uttryck vilket uppgiften går ut på. Borde prata med andra i klassen!
+Om man bortser från det tycker jag det går smidigt, har valt att läsa in hela filen i en hash som har varje lag som första värdet och sen målskillnaden som andra värdet.
+
+31/01
+Har gjort klart uppgiften, blev väldigt lite gjort i helgen. Ska börja med väderuppgiften nu.
