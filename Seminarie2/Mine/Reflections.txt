@@ -24,3 +24,4 @@ Om man bortser från det tycker jag det går smidigt, har valt att läsa in hela
 
 31/01
 Har gjort klart uppgiften, blev väldigt lite gjort i helgen. Ska börja med väderuppgiften nu.
+Den gick väldigt snabbt, va mest att kopiera den kod man skrivit i förra deluppgiften.

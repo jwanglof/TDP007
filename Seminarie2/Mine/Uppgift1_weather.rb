@@ -8,6 +8,7 @@ def weather(filename)
   (file.length).times do |e|
     line = file[e].split(" ")
 
+    # A slight difference from the football exercise
     if line[0] =~ /\d/
       weatherHash[line[0]] = line[2].to_i-line[1].to_i
     end
