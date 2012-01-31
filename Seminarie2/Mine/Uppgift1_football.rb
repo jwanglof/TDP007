@@ -25,7 +25,8 @@ def goals(filename)
   puts "A list with the teams sorted by goal difference:"
   teamHash.each do |e|
     # Blaha
-    puts "#{e[0]} \t #{e[1]}"
+    spaceLength = 18 - e[0].length
+    puts "#{e[0]}" + " "*spaceLength + "#{e[1]}"
   end
 
   return nil
