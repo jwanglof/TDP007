@@ -23,5 +23,15 @@ Vet inte riktigt om jag har förstått uppgiften rätt eftersom jag knappt anvä
 Om man bortser från det tycker jag det går smidigt, har valt att läsa in hela filen i en hash som har varje lag som första värdet och sen målskillnaden som andra värdet.
 
 31/01
-Har gjort klart uppgiften, blev väldigt lite gjort i helgen. Ska börja med väderuppgiften nu.
+Har gjort klart fotbollsuppgiften, blev väldigt lite gjort i helgen. Ska börja med väderuppgiften nu.
 Den gick väldigt snabbt, va mest att kopiera den kod man skrivit i förra deluppgiften.
+
+01/02
+Har gjort klart uppgift 2. Var lite krångligt ibörjan och testade massa olika metoder. Fastnade för "nokogiri" av någon anledning, vet inte riktigt vad skillnaden är mellan de olika metoderna dock förutom att vissa är snabbare än andra.
+Är inte alls nöjd med hur koden ser ut, eller hur den fungerar. Känns som att det finns mycket bättre sätt att göra det på, kanske kommer försöka göra om den senare och/eller se Alicias lösning.
+
+===========
+
+Jag och Alicia har kommit överens om att det är bäst att vi jobbar på olika håll och sen sätter oss ner och väljer vilka lösningar vi ska skicka in och diskuterar det vi känner att vi behöver diskutera.
+Jag vet inte om jag tolkat uppgiften rätt men jag tolkade det som att vi fick väldigt fria händer vad som skulle vara med och hur det presenterades. Jag valde att bara ta med 2 olika uppgifter, när och information om eventet, eftersom det känns som att jag kommer använda samma kod hela tiden ändå. Detta kan komma att ändras eftersom jag kanske kommer skriva om koden.
+Det var lite halvsvårt att komma igång med uppgiften eftersom jag bara kikat lite halvhjärtat på XML innan och dokumentationen är inte den allra bästa. Men när jag hade bestämt mig att använda Nokogiri fanns det bra tutorials som hjälpte mig mycket på vägen.
